@@ -1,0 +1,294 @@
+
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+    font-family: Roboto;
+    background-color: #F1F1F1;
+}
+
+
+
+#header{
+    display: flex;
+    color: white;
+    background-color: #151515;
+    height: 7%;
+    font-size: 0.9rem;
+
+}
+
+.p_header{
+    align-self: center;
+    margin-top: 1%;
+    margin-left: 5%;
+    font-weight: bolder;
+
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.pagina{
+    align-self: center;
+    height: 760px;
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2%;
+    background-color: white;
+    width: 660px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px black;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+#main_titulo{
+    font-weight: bolder;
+    color: #3A3A3A;
+    margin-bottom: 3%;
+    padding-top: 5%;
+}
+
+.subtitulo{
+    margin-bottom: 0;
+    font-weight: bolder;
+    margin-bottom: 1%;
+}
+
+input{
+    display: block;
+    border-radius: 10px;
+    border: 1px solid #A7A6A6;
+    height: 20px;
+    margin-bottom: 2.5%;
+    width: 90%;
+    height: 20%;
+    line-height: 2rem;
+}
+
+#temp_site{
+    width: 68%;
+    display: inline-block;
+}
+
+
+
+.slab{
+    color: #A7A6A6;
+}
+
+.antes_box{
+    margin-bottom: 1%;
+    margin-top: 3%;
+    color: #3A3A3A;
+    font-weight: bolder;
+}
+
+.planos{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0;
+    height: 126px;
+    /* height: 50%; */
+
+}
+
+
+.caixa_planos{
+    color: #86868B;
+    background-color: #A7A6A6;
+    border-radius: 10px;
+    width: 31%;
+    display: flex;
+    flex-direction: column;
+}
+
+.caixa_planos:hover{
+    cursor: pointer;
+}
+.titulos{
+    background-color: #3A3A3A;
+    border-radius: 10px 10px 0 0 ;
+    display: flex;
+    justify-content: center;
+    padding: 5px 1px 5px 1px;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.preco{
+    border-radius: 0 0 10px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    background-color: #A7A6A6;
+    color: black;
+    height: 100%;
+    position: relative;
+
+}
+
+#preco1{
+    margin-bottom: 18px;
+}
+
+.numero{
+    font-size: 1.4rem;
+    display: block;
+    margin-bottom: -10px;
+    padding: 0;
+    align-self: center;
+    font-weight: bolder;
+    height: min-content;
+
+}
+
+.outra_parte{
+    display: inline;
+    align-self: center;
+    margin-top: 0;
+    padding: 0;
+    font-size: 1rem;
+}
+
+.outra_outra{
+    display: block;
+    align-self: center;
+    font-size: 0.8rem;
+    align-self: center;
+}
+
+.butao{
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6%;
+    /* margin-bottom: 30px; */
+    background-color: #FFAF1F;
+    border-radius: 15px;
+}
+
+
+#footer{
+    color: #86868B;
+    background-color: white;
+    
+}
+
+#primeira_coluna{
+    display: flex;
+    align-content: center;
+    height: 10vh;
+}
+
+.secundario{
+    font-size: 0.8rem;
+}
+
+#pages{
+    display: flex;
+    justify-content: end;
+}
+
+#ver{
+    display: flex;
+    justify-content: center;
+}
+
+
+#segunda_coluna{
+    display: flex;
+    align-content: center;
+    height: 5vh;
+    border-top: 1px solid #A7A6A6;
+}
+#headquarter, #brasil{
+    margin-left: 10%;
+    margin-top: 1%;
+}
+
+#headquarter{
+    font-weight: bolder;
+}
+
+.b{
+    font-size: 0.8rem;
+}
+
+li{
+    list-style-type: none;
+    display: block;
+}
+
+
+
+@media (min-width: 1200px) and (max-width:1399px){
+    /* .pagina{
+        width: 60%;
+    } */
+
+}
+
+@media (min-width: 992px) and (max-width:1199px){
+    /* .pagina{
+        width: 70%;
+    }
+    */
+}
+
+@media (min-width: 768px) and (max-width:991px){
+    /* .pagina{
+        width: 80%;
+    } */
+
+}
+
+@media (min-width: 576px) and (max-width:767px){
+     .pagina{
+        width: 560px;
+        height: 700PX;
+        margin-bottom: 10%;
+    } 
+
+    .planos{
+        height: 116px;
+    }
+
+}
+
+@media (max-width:575px){
+    .pagina{
+        width: 400px;
+        height: 640PX;
+        margin-bottom: 10%;
+    }
+
+    .planos{
+        height: 106px;
+    }
+
+    .outra_outra{
+        font-size: 0.55rem;
+    }
+
+}
+
+@media(max-width:406px){
+    .pagina{
+        width: 350px;
+        height: 610PX;
+        margin-bottom: 20%;
+    }
+
+    .planos{
+        height: 96px;
+    }
+}

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Document</title>
+
+</head>
+<body>
+    
+<div class="container-fluid border" id="header">
+   <P class="p_header"><img src="./seta_esquerda.svg" alt="seta_esquerda" width="10%" height="10%"> BACK TO VERSIONS</P> </div>
+ 
+       <div class="pagina"> 
+            <h1 class="text-center" id="main_titulo">Sign Up for Fabricator</h1>
+            <p class="subtitulo"> Please enter your details</p>
+            <form action="#">
+                <input type="text" class="form-control" placeholder="*Name..." name="Nome" id="nome">
+                <input type="text" class="form-control" placeholder="*Email..." name="email" id="email">
+                <input type="text" class="form-control" placeholder="*Phone..." name="telefone" id="telefone">
+                <input type="text" class="form-control" placeholder="*Company..." name="empresa" id="empresa">
+                <input type="text" class="form-control" placeholder="*Login..." name="Login" id="Login">
+                <input type="text" class="form-control" placeholder="*Password..." name="senha" id="senha"> 
+                <div class="ultimo_input"><input type="text" class="form-control" placeholder="*Temporary Website..." name="temp_site" id="temp_site"> 
+                    <span class="slab">.slabware.com</span>
+                </div>
+
+                <p class="antes_box">Select your plan</p>
+                <div class="planos">
+                    <div class="caixa_planos" id="caixa1">
+                        <div class="titulos">montly</div>
+                        <div class="preco" id="preco1">
+                            <span class="numero">U$ 149</span>
+                            <span class="outra_parte"> per month</span>
+                             
+                        </div>
+                    </div>
+                    <div class="caixa_planos" id="caixa2">
+                        <div class="titulos">semesterly</div>
+                        <div class="preco" id="preco2">
+                            <span class="numero">U$ 142 </span>
+                            <span class="outra_parte"> per month</span>
+                            <span class="outra_outra">Billed semesterly <b>U$ 852</b></span>
+ 
+                        </div>
+                    </div>
+                    <div class="caixa_planos" id="caixa3">
+                        <div class="titulos">montly</div>
+                        <div class="preco" id="preco3">
+                            <span class="numero">U$ 135 </span>
+                            <span class="outra_parte"> per month</span>
+                            <span class="outra_outra">Billed yearly  <b>U$ 1,620</b></span>
+                        </div>
+                    </div>
+                </div>
+
+                <input type="button" value="Buy Now" class="butao">
+
+            </form>
+    </div>
+</div>
+
+<div class="container-fluid" id="footer">
+    <div class="row" id="primeira_coluna">
+            <div class="col" id="pages">
+                <div>
+                    <li><b>Pages</b></li>
+                    <li class="secundario">home</li>
+                </div>
+            </div>
+            <div class="col" id="ver">
+                <div>
+                    <li><b>Versions</b></li>
+                    <li class="secundario">Fabricator</li>
+                </div>
+            </div>
+            <div class="col" id="more">
+                <div>
+                    <li><b>More Info</b></li>
+                    <li class="secundario">Info@slabware.com</li>
+                </div>    
+            </div>
+            <div class="col" id="help">
+                <div>
+                    <li><b>Help</b></li>
+                    <li class="secundario">How it Works</li>
+                </div>
+                </div>
+            <div class="col" id="social">
+                <div>
+                    <li><b>Social Media</b></li>
+                    <li class="secundario">Instagram</li>
+                </div>
+    </div>
+    </div>
+    <div class="row" id="segunda_coluna">
+       <div class="col" id="headquarter">Headquarter:</div>
+       <div class="col" id="brasil" ><span class="b">Brasil</span></div>
+    </div>
+</div>
+
+
+    <script src="./script.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>
